@@ -1,0 +1,20 @@
+{
+  "presets": [
+    [
+      "@babel/preset-react",
+      {
+        "pragma": "h"
+      }
+    ],
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 versions"
+          ]
+        }
+      }
+    ]
+  ]
+}

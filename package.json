@@ -1,0 +1,20 @@
+{
+  "name": "virtual-dom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel virtual-dom.js -o dist.js",
+    "watch": "babel virtual-dom.js --watch -o dist.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "dependencies": {}
+}
